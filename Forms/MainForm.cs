@@ -1481,7 +1481,7 @@ namespace Sequencer.Forms
         private void advancedModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (advancedModeToolStripMenuItem.Checked && (Sequencer.advancedOptionsEnabled == true ||
-                Sequencer.AdvancedOptionsDialog("Configuring password sequence using the advanced mode can result in the password being weaker that what is displaied by the strength bar. " +
+                Sequencer.AdvancedOptionsDialog("Configuring password sequence using the advanced mode can result in the password being weaker than what is displayed by the strength bar. " +
                 "Toggling advanced mode will add options (marked with *) in the options menu for each sequence item") != System.Windows.Forms.DialogResult.OK))
             {
                 advancedModeToolStripMenuItem.Checked = false;
