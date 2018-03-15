@@ -32,7 +32,7 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.addWordsMenu = new System.Windows.Forms.ToolStripDropDownButton();
             this.addDicewareButton = new System.Windows.Forms.ToolStripMenuItem();
-            this.addAltDicewareButton = new System.Windows.Forms.ToolStripMenuItem();
+            this.addCatalanButton = new System.Windows.Forms.ToolStripMenuItem();
             this.addNgslBaseOnly = new System.Windows.Forms.ToolStripMenuItem();
             this.addNgslButton = new System.Windows.Forms.ToolStripMenuItem();
             this.addTop5kButton = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,7 +71,7 @@
             this.addWordsMenu.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.addWordsMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addDicewareButton,
-            this.addAltDicewareButton,
+            this.addCatalanButton,
             this.addNgslBaseOnly,
             this.addNgslButton,
             this.addTop5kButton,
@@ -90,12 +90,12 @@
             this.addDicewareButton.Text = "Diceware";
             this.addDicewareButton.Click += new System.EventHandler(this.addDicewareButton_Click);
             // 
-            // addAltDicewareButton
+            // addCatalanButton
             // 
-            this.addAltDicewareButton.Name = "addAltDicewareButton";
-            this.addAltDicewareButton.Size = new System.Drawing.Size(298, 22);
-            this.addAltDicewareButton.Text = "Beale Diceware";
-            this.addAltDicewareButton.Click += new System.EventHandler(this.addAltDicewareButton_Click);
+            this.addCatalanButton.Name = "addCatalanButton";
+            this.addCatalanButton.Size = new System.Drawing.Size(298, 22);
+            this.addCatalanButton.Text = "Catalan";
+            this.addCatalanButton.Click += new System.EventHandler(this.addCatalanButton_Click);
             // 
             // addNgslBaseOnly
             // 
@@ -178,7 +178,7 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripDropDownButton addWordsMenu;
         private System.Windows.Forms.ToolStripMenuItem addDicewareButton;
-        private System.Windows.Forms.ToolStripMenuItem addAltDicewareButton;
+        private System.Windows.Forms.ToolStripMenuItem addCatalanButton;
         private System.Windows.Forms.ToolStripMenuItem addNgslButton;
         private System.Windows.Forms.ToolStripMenuItem addTop5kButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;

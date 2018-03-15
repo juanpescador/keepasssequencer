@@ -61,11 +61,11 @@ namespace Sequencer.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string from beale Diceware list
+        ///   Looks up a localized string from Catalan list
         /// </summary>
-        internal static string bealeDiceware {
+        internal static string Catalan {
             get {
-                return ResourceManager.GetString("bealeDiceware", resourceCulture);
+                return ResourceManager.GetString("Catalan", resourceCulture);
             }
         }
         

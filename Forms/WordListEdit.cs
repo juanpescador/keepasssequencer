@@ -41,9 +41,9 @@ namespace Sequencer.Forms
             RefitTextEntry();
         }
 
-        private void addAltDicewareButton_Click(object sender, EventArgs e)
+        private void addCatalanButton_Click(object sender, EventArgs e)
         {
-            wordList.SelectedText = global::Sequencer.Properties.Resources.bealeDiceware;
+            wordList.SelectedText = global::Sequencer.Properties.Resources.Catalan;
             RefitTextEntry();
         }
 

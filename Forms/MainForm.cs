@@ -54,7 +54,7 @@ namespace Sequencer.Forms
         private ToolStripMenuItem saveToolStripMenuItem;
         private ToolStripMenuItem defaultWordsToolStripMenuItem;
         private ToolStripMenuItem dicewareToolStripMenuItem;
-        private ToolStripMenuItem bealeDicewareToolStripMenuItem;
+        private ToolStripMenuItem catalanToolStripMenuItem;
         private ToolStripMenuItem newGeneralServiceListToolStripMenuItem;
         private ToolStripMenuItem top5000ToolStripMenuItem;
         private ToolStripMenuItem defaultCharactersToolStripMenuItem;
@@ -591,7 +591,7 @@ namespace Sequencer.Forms
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.defaultWordsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dicewareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bealeDicewareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.catalanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newGeneralServiceListbaseWordsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newGeneralServiceListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.top5000ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -1056,7 +1056,7 @@ namespace Sequencer.Forms
             // 
             this.defaultWordsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dicewareToolStripMenuItem,
-            this.bealeDicewareToolStripMenuItem,
+            this.catalanToolStripMenuItem,
             this.newGeneralServiceListbaseWordsToolStripMenuItem,
             this.newGeneralServiceListToolStripMenuItem,
             this.top5000ToolStripMenuItem,
@@ -1073,12 +1073,12 @@ namespace Sequencer.Forms
             this.dicewareToolStripMenuItem.Text = "Diceware";
             this.dicewareToolStripMenuItem.Click += new System.EventHandler(this.dicewareToolStripMenuItem_Click);
             // 
-            // bealeDicewareToolStripMenuItem
+            // catalanToolStripMenuItem
             // 
-            this.bealeDicewareToolStripMenuItem.Name = "bealeDicewareToolStripMenuItem";
-            this.bealeDicewareToolStripMenuItem.Size = new System.Drawing.Size(298, 22);
-            this.bealeDicewareToolStripMenuItem.Text = "Beale Diceware";
-            this.bealeDicewareToolStripMenuItem.Click += new System.EventHandler(this.bealeDicewareToolStripMenuItem_Click);
+            this.catalanToolStripMenuItem.Name = "catalanToolStripMenuItem";
+            this.catalanToolStripMenuItem.Size = new System.Drawing.Size(298, 22);
+            this.catalanToolStripMenuItem.Text = "Catalan";
+            this.catalanToolStripMenuItem.Click += new System.EventHandler(this.catalanToolStripMenuItem_Click);
             // 
             // newGeneralServiceListbaseWordsToolStripMenuItem
             // 
@@ -1344,9 +1344,9 @@ namespace Sequencer.Forms
             AppendWordList(global::Sequencer.Properties.Resources.diceware);
         }
 
-        private void bealeDicewareToolStripMenuItem_Click(object sender, EventArgs e)
+        private void catalanToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AppendWordList(global::Sequencer.Properties.Resources.bealeDiceware);
+            AppendWordList(global::Sequencer.Properties.Resources.Catalan);
         }
 
         private void newGeneralServiceListToolStripMenuItem_Click(object sender, EventArgs e)
